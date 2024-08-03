@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      box-sizing: border-box;
+      background-color: ;
+    }
+    body{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh ;
+      background: url('sky.jpg');
+
+    }
+    ::placeholder{
+      color: black;
+      align-items: center;
+    }
+    form{
+      margin-top: 50px;
+      text-align: center;
+    }
+    input{
+      display: block;
+      width: 350px;
+      height: 40px;
+      margin: 20px;
+      border:none;
+      outline: none;
+      font-size: 20px ;
+      border-bottom: 1px solid black;
+    }
+    button{
+        width: 350px;
+        height: 40px;
+        font-size: 20px;
+        background-color: blue;
+        border: none;
+        color: white;
+        margin-top: 20px;
+      }
+      form h1{
+        margin-bottom: 30px;
+      }
+
+    
+  </style>
+</head>
+<body>
+  <form>
+    <h1>Sign UP</h1>
+    <input type="text"name=""placeholder="Username">
+    <input type="text"name=""List="gender"placeholder="Gender">
+    <datalist id="gender">
+    <option>Male</option>
+    <option>Female</option>
+  </datalist>
+    <input type="text"name=""placeholder="email">
+    <input type="text"name=""placeholder="Newpassword">
+    <input type="text"name=""placeholder="confirmpassword">
+    <button type="submit">Sign Up</button>
+     </form>
+
+  
+</body>
+</html>
